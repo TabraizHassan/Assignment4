@@ -67,57 +67,133 @@
 
     </LinearLayout>
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
     <LinearLayout
-        android:layout_width="222dp"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal">
+        android:layout_width="match_parent"
+        android:layout_height="100dp">
 
-
-
-
-
-        <ImageView
-            android:layout_width="100dp"
-            android:layout_height="100dp"
-            android:layout_gravity="left"
-            android:adjustViewBounds="true"
-            android:cropToPadding="true"
-            android:src="@drawable/pressure" />
 
 
         <LinearLayout
-            android:layout_width="121dp"
-            android:layout_height="100dp"
-            android:orientation="vertical">
+            android:layout_width="200dp"
+            android:layout_height="100dp">
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_margin="5dp"
-                android:text="Pressure"
-                android:textAlignment="textStart"
-                android:textColor="@color/cardview_dark_background"
-                android:textSize="18sp"
-                android:textStyle="bold"
-                android:layout_gravity="center"/>
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="left"
+                android:adjustViewBounds="true"
+                android:cropToPadding="true"
+                android:src="@drawable/pressure" />
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_margin="5dp"
-                android:text="250 hPa"
-                android:textAlignment="textStart"
-                android:textColor="@android:color/darker_gray"
-                android:textSize="18sp"
-                android:textStyle="bold"
-                android:layout_gravity="center"/>
+            <LinearLayout
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:orientation="vertical">
 
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_margin="5dp"
+                    android:text="Pressure"
+                    android:textAlignment="textStart"
+                    android:textColor="@color/cardview_dark_background"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_margin="5dp"
+                    android:text="250 hPa"
+                    android:textAlignment="textStart"
+                    android:textColor="@android:color/darker_gray"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <LinearLayout
+            android:layout_width="200dp"
+            android:layout_height="100dp">
+
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="left"
+                android:adjustViewBounds="true"
+                android:cropToPadding="true"
+                android:src="@drawable/Unknown" />
+
+            <LinearLayout
+                android:layout_width="120dp"
+                android:layout_height="100dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_margin="5dp"
+                    android:text="Wind"
+                    android:textAlignment="textStart"
+                    android:textColor="@color/cardview_dark_background"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_margin="5dp"
+                    android:text="35 m/s"
+                    android:textAlignment="textStart"
+                    android:textColor="@android:color/darker_gray"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+
+            </LinearLayout>
 
 
         </LinearLayout>
 
 
     </LinearLayout>
-
-
-</LinearLayout>
