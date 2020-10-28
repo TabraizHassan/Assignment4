@@ -1,3 +1,16 @@
 <resources>
     <string name="app_name">Assignment 1</string>
+    <string name="Pressure">Pressure</string>
+   <string name="Pvalue">250 hPa</string>
+    <string name="Wind">Wind</string>
+    <string name="Wvalue">35 m/s</string>
+    <string name="Sunrise">Sunrise</string>
+    <string name="Svalue">5:35 am</string>
+    <string name="Sunset">Sunset</string>
+    <string name="Suvalue">6:25 pm</string>
+    <string name="Clouds">Clouds</string>
+    <string name="Cvalue">scattered</string>
+    <string name="Humidity">Humidity</string>
+    <string name="Hvalue">45%</string>
+
 </resources>
