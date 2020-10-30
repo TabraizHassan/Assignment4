@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="Pressure">دباؤ</string>
+    <string name="Pvalue">250 ایچ پی اے</string>
+    <string name="Wind">ہوا</string>
+    <string name="Wvalue">35 میٹر / سیکنڈ</string>
+    <string name="Sunrise">طلوع آفتاب</string>
+    <string name="Svalue">صبح 5:35</string>
+    <string name="Sunset">غروب آفتاب</string>
+    <string name="Suvalue">شام 6:25 بجے</string>
+    <string name="Clouds">بادل</string>
+    <string name="Cvalue">بکھرے ہوئے</string>
+    <string name="Humidity">نمی</string>
+    <string name="Hvalue">45٪</string>
+
+
+</resources>
