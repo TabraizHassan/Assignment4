@@ -29,7 +29,7 @@
             android:orientation="vertical">
 
             <TextView
-
+                android:id="@+id/description"
                 android:layout_width="match_parent"
                 android:layout_height="40dp"
                 android:layout_gravity=""
@@ -41,6 +41,7 @@
                 android:textStyle="bold" />
 
             <TextView
+                android:id="@+id/temperature"
                 android:layout_marginTop="10dp"
                 android:layout_width="match_parent"
                 android:layout_height="40dp"
@@ -54,6 +55,7 @@
 
 
             <TextView
+                android:id="@+id/feels_like"
                 android:layout_width="match_parent"
                 android:layout_height="61dp"
                 android:layout_gravity=""
@@ -187,6 +189,7 @@
                     android:textStyle="bold" />
 
                 <TextView
+                    android:id="@+id/humidityval"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
@@ -251,6 +254,7 @@
                     android:textStyle="bold" />
 
                 <TextView
+                    android:id="@+id/pressureval"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
@@ -308,6 +312,7 @@
                     android:textStyle="bold" />
 
                 <TextView
+                    android:id="@+id/windspeed"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
